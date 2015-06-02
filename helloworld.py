@@ -12,8 +12,8 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('download/', defaults={'path': ''})
-@app.route('download/<path:path>')
+@app.route('/download/', defaults={'path': ''})
+@app.route('/download/<path:path>')
 def download(path):
     g = Github()
     user = g.get_user(USER)
