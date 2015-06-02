@@ -1,0 +1,9 @@
+# intellij
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# python
+venv
+*.pyc
